@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # Süpermarket Navigasyon Uygulaması (Supermarket Navigation App)
 
-Bu proje, bir süpermarketteki ürünleri en kısa yoldan bulmaya yardımcı olan bir yol bulma (pathfinding) uygulamasıdır. Kullanıcı, almak istediği ürünleri seçtikten sonra uygulama, başlangıç noktasından (kapı) başlayarak bu ürünlere en kısa rotayı hesaplar.
+Bu proje, bir süpermarketteki bir ürünü en kısa yoldan bulmaya yarayan bir yol bulma (pathfinding) uygulamasıdır. Kullanıcı, almak istediği ürünleri seçtikten sonra uygulama, başlangıç noktasından (kapı) başlayarak bu ürüne en kısa rotayı bulur.
 
 ## Özellikler (Features)
-- C dili ile yazılmıştır.
-- Süpermarket krokisi, düğümler (nodes) ve aralarındaki mesafeler ile temsil edilir.
+- Açgözlü en iyi öncelikli arama (greedy best first search) algoritmasını kullanır.
+- Süpermarket krokisi, düğümler (nodes) ve koordinatları ile temsil edilir.
 - Kullanıcıdan almak istediği ürün alınır.
 - Komut satırı tabanlıdır.
 
